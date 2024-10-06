@@ -1,17 +1,12 @@
 <html>
-<head>
-    <script src="/socket.io/socket.io.js"></script>
-    <script>
-        let socket = io();
-        let el;
-
-        socket.on('time', (timeString) => {
-            el = document.getElementById('server-time');
-            el.innerHTML = 'Server time: ' + timeString;
-        });
-    </script>
-</head>
 <body>
-<p id="server-time"></p>
+<ul>
+    <li><a href="https://mattw.io/maps-let-loose">
+        maps-let-loose
+    </a></li>
+    <li><a href="https://github.com/mattwright324/maps-let-loose-socket">
+        maps-let-loose-socket
+    </a></li>
+</ul>
 </body>
 </html>
