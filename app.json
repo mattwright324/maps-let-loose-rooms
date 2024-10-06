@@ -1,0 +1,10 @@
+{
+  "name": "Maps Let Loose Socket",
+  "description": "Manages creation and syncing of rooms content between connected clients",
+  "repository": "https://github.com/heroku-examples/node-socket.io",
+  "keywords": [
+    "node",
+    "websocket",
+    "socket.io"
+  ]
+}
